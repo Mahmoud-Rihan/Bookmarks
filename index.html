@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <!-- Css Style -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="Content">
+                <h2>Bookmarker</h2>
+                <hr>
+                <div class="form">
+                    <h4>Bookmark your favorite sites</h4>
+                    <label>Site Name</label>
+                    <input id="bookmarkName" type="text" class="form-control size" placeholder="Bookmark Name">
+                    <div id="alertName" class="alert alert-danger p-2 alert-size d-none">Enter your Bookmark Name correct please </div>
+                    <label>Site URL</label>
+                    <input id="siteUrl" type="text" class="form-control size" placeholder="Website URL">
+                    <div id="alertUrl" class="alert alert-danger p-2 alert-size d-none">Your Url must write correct like "http://www.google.com" </div>
+                    <button id="btn" class="btn btn-primary" disabled>Add</button>
+                    <button id="rest" class="btn btn-secondary hov3">Reset</button>
+                </div>
+                <input id="searchInput" type="text" placeholder="Find Bookmark ...." class="form-control mt-5 input-search">
+                <table>
+                    <tbody id="tableBody">
+                        
+                    </tbody>
+                </table>
+                <hr>
+                <p>© 2019 Bookmarker Inc.</p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
